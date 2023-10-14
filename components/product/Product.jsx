@@ -100,7 +100,7 @@ const Product = ({ product }) => {
           <span>
             <h3 className="font-semibold my-2">${product.price}</h3>
           </span>
-          <span>
+          <span className="px-4 py-2 bg-primary-19 hover:bg-primary-27 hover:text-white rounded-[5px] cursor-pointer">
             <IconCart size={20} />
           </span>
         </div>
